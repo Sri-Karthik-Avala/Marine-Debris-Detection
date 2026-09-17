@@ -1,0 +1,9 @@
+fold 0 in-sample cands 10065 pos81 frac 0.191
+fold 1 in-sample cands 9338 pos81 frac 0.195
+fold 2 in-sample cands 10016 pos81 frac 0.19
+Traceback (most recent call last):
+  File "C:\Users\srika\Downloads\eris_marine_debris\dev\scorer_md.py", line 60, in <module>
+    print('AUC sc', roc_auc_score(lab, a_sc).round(3), 'p81', roc_auc_score(lab, a_p81).round(3), 'p50', roc_auc_score(lab, a_p50).round(3), 'sc*p81', roc_auc_score(lab, a_sc*a_p81).round(3), 'sqrt', roc_auc_score(lab, np.sqrt(a_sc*a_p81)).round(3))
+AttributeError: 'float' object has no attribute 'round'
+ERROR conda.cli.main_run:execute(124): `conda run python -u dev/scorer_md.py 1000 s1000` failed. (See above for error)
+EXIT

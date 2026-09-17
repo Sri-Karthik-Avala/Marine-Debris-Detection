@@ -1,0 +1,5 @@
+RESULT r_base_s1 cfg={"steps": 1300, "seed": 1} F1=0.2941 thr=0.675 tp=605 P=1788 T=2326 cov81=0.396 cov5=0.776 time=338
+RESULT r_bins cfg={"steps": 1300, "seed": 0, "arch": "bins"} F1=0.3027 thr=0.675 tp=622 P=1784 T=2326 cov81=0.418 cov5=0.775 time=447
+RESULT r_steps2600 cfg={"steps": 2600, "seed": 0} F1=0.3089 thr=0.625 tp=673 P=2032 T=2326 cov81=0.430 cov5=0.779 time=962
+RESULT r_bins_s1 cfg={"steps": 1300, "seed": 1, "arch": "bins"} F1=0.3049 thr=0.625 tp=664 P=2030 T=2326 cov81=0.414 cov5=0.774 time=601
+RESULT r_bins_1000 cfg={"steps": 1000, "seed": 0, "arch": "bins"} F1=0.298 thr=0.675 tp=613 P=1788 T=2326 cov81=0.412 cov5=0.773 time=533

@@ -1,0 +1,56 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+ep 0 step 25/428 loss 0.5160 lr 0.00248
+ep 0 step 50/428 loss 0.5160 lr 0.00484
+ep 0 step 75/428 loss 0.4659 lr 0.00696
+ep 0 step 100/428 loss 0.4507 lr 0.00874
+ep 0 step 125/428 loss 0.4551 lr 0.00807
+ep 0 step 150/428 loss 0.4577 lr 0.00730
+ep 0 step 175/428 loss 0.4483 lr 0.00645
+ep 0 step 200/428 loss 0.4461 lr 0.00555
+epoch 0 done loss 0.4487
+ep 1 step 225/428 loss 0.5000 lr 0.00463
+ep 1 step 250/428 loss 0.4836 lr 0.00373
+ep 1 step 275/428 loss 0.4837 lr 0.00287
+ep 1 step 300/428 loss 0.4865 lr 0.00208
+ep 1 step 325/428 loss 0.4866 lr 0.00139
+ep 1 step 350/428 loss 0.4791 lr 0.00082
+ep 1 step 375/428 loss 0.4767 lr 0.00039
+ep 1 step 400/428 loss 0.4762 lr 0.00011
+ep 1 step 425/428 loss 0.4701 lr 0.00000
+epoch 1 done loss 0.4679
+det2 time 67.01979970932007
+refiner step 50/1000 reg 0.6725 qual 0.6821
+refiner step 100/1000 reg 0.3953 qual 0.5824
+refiner step 150/1000 reg 0.3151 qual 0.5356
+refiner step 200/1000 reg 0.2910 qual 0.5316
+refiner step 250/1000 reg 0.2844 qual 0.5232
+refiner step 300/1000 reg 0.2729 qual 0.5152
+refiner step 350/1000 reg 0.2621 qual 0.5142
+refiner step 400/1000 reg 0.2530 qual 0.5128
+refiner step 450/1000 reg 0.2526 qual 0.5135
+refiner step 500/1000 reg 0.2463 qual 0.5072
+refiner step 550/1000 reg 0.2490 qual 0.5022
+refiner step 600/1000 reg 0.2364 qual 0.5049
+refiner step 650/1000 reg 0.2363 qual 0.5030
+refiner step 700/1000 reg 0.2315 qual 0.4997
+refiner step 750/1000 reg 0.2253 qual 0.4973
+refiner step 800/1000 reg 0.2240 qual 0.5047
+refiner step 850/1000 reg 0.2186 qual 0.4958
+refiner step 900/1000 reg 0.2156 qual 0.4988
+refiner step 950/1000 reg 0.2138 qual 0.4919
+refiner step 1000/1000 reg 0.2153 qual 0.4970
+refiner time 465.17303466796875
+det3ep ref0 sm0 nms1.0: (0.15577190542420027, 0.3, 1, 0.825, 56, 213)
+det3ep ref1 sm0 nms1.0: (0.2820838627700127, 0.3, 1, 0.725, 111, 281)
+det3ep ref1 sm0 nms0.7: (0.280970625798212, 0.3, 1, 0.725, 110, 277)
+det3ep ref1 sm0 nms0.5: (0.280970625798212, 0.3, 1, 0.725, 110, 277)
+det3ep ref1 sm1 nms1.0: (0.2781289506953224, 0.3, 1, 0.775, 110, 285)
+det3ep ref1 sm1 nms0.7: (0.27735368956743, 0.3, 1, 0.775, 109, 280)
+det3ep ref1 sm1 nms0.5: (0.27735368956743, 0.3, 1, 0.775, 109, 280)
+det2ep ref0 sm0 nms1.0: (0.1430615164520744, 0.5, 0, 0.775, 50, 193)
+det2ep ref1 sm0 nms1.0: (0.26556991774383076, 0.5, 1, 0.675, 113, 345)
+det2ep ref1 sm0 nms0.7: (0.2677925211097708, 0.3, 1, 0.675, 111, 323)
+det2ep ref1 sm0 nms0.5: (0.26844014510278114, 0.3, 1, 0.675, 111, 321)
+det2ep ref1 sm1 nms1.0: (0.2685069008782936, 0.3, 1, 0.775, 107, 291)
+det2ep ref1 sm1 nms0.7: (0.2702020202020202, 0.3, 1, 0.775, 107, 286)
+det2ep ref1 sm1 nms0.5: (0.27054361567635904, 0.3, 1, 0.775, 107, 285)

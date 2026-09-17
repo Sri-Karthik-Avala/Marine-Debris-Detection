@@ -1,0 +1,66 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train rows 856 holdout rows 154 holdout groups 34
+images loaded
+ep 0 step 25/642 loss 0.5180 lr 0.00249
+ep 0 step 50/642 loss 0.5175 lr 0.00493
+ep 0 step 75/642 loss 0.4659 lr 0.00726
+ep 0 step 100/642 loss 0.4491 lr 0.00942
+ep 0 step 125/642 loss 0.4554 lr 0.00911
+ep 0 step 150/642 loss 0.4610 lr 0.00873
+ep 0 step 175/642 loss 0.4498 lr 0.00829
+ep 0 step 200/642 loss 0.4490 lr 0.00781
+epoch 0 done loss 0.4516
+ep 1 step 225/642 loss 0.4891 lr 0.00729
+ep 1 step 250/642 loss 0.4942 lr 0.00673
+ep 1 step 275/642 loss 0.4886 lr 0.00614
+ep 1 step 300/642 loss 0.4966 lr 0.00554
+ep 1 step 325/642 loss 0.4951 lr 0.00493
+ep 1 step 350/642 loss 0.4926 lr 0.00432
+ep 1 step 375/642 loss 0.4880 lr 0.00372
+ep 1 step 400/642 loss 0.4868 lr 0.00314
+ep 1 step 425/642 loss 0.4877 lr 0.00259
+epoch 1 done loss 0.4856
+ep 2 step 450/642 loss 0.4705 lr 0.00207
+ep 2 step 475/642 loss 0.4992 lr 0.00160
+ep 2 step 500/642 loss 0.5079 lr 0.00118
+ep 2 step 525/642 loss 0.4988 lr 0.00081
+ep 2 step 550/642 loss 0.5022 lr 0.00051
+ep 2 step 575/642 loss 0.4944 lr 0.00027
+ep 2 step 600/642 loss 0.4965 lr 0.00011
+ep 2 step 625/642 loss 0.4912 lr 0.00002
+epoch 2 done loss 0.4937
+detector training done
+detector inference done
+refiner step 50/1300 reg 0.6796 qual 0.6787
+refiner step 100/1300 reg 0.3907 qual 0.5771
+refiner step 150/1300 reg 0.3241 qual 0.5336
+refiner step 200/1300 reg 0.2948 qual 0.5212
+refiner step 250/1300 reg 0.2864 qual 0.5184
+refiner step 300/1300 reg 0.2672 qual 0.5103
+refiner step 350/1300 reg 0.2703 qual 0.5195
+refiner step 400/1300 reg 0.2568 qual 0.5139
+refiner step 450/1300 reg 0.2554 qual 0.5054
+refiner step 500/1300 reg 0.2582 qual 0.5101
+refiner step 550/1300 reg 0.2431 qual 0.5050
+refiner step 600/1300 reg 0.2357 qual 0.5036
+refiner step 650/1300 reg 0.2411 qual 0.5030
+refiner step 700/1300 reg 0.2341 qual 0.5015
+refiner step 750/1300 reg 0.2343 qual 0.5047
+refiner step 800/1300 reg 0.2280 qual 0.4990
+refiner step 850/1300 reg 0.2251 qual 0.4989
+refiner step 900/1300 reg 0.2210 qual 0.4995
+refiner step 950/1300 reg 0.2223 qual 0.5035
+refiner step 1000/1300 reg 0.2199 qual 0.4970
+refiner step 1050/1300 reg 0.2170 qual 0.4996
+refiner step 1100/1300 reg 0.2192 qual 0.4985
+refiner step 1150/1300 reg 0.2157 qual 0.4992
+refiner step 1200/1300 reg 0.2111 qual 0.4976
+refiner step 1250/1300 reg 0.2171 qual 0.5037
+refiner step 1300/1300 reg 0.2081 qual 0.4926
+refiner training done
+refinement done
+refined 0: F1@0.81 0.1583 cfg (0.3, 1, 0.8, 58, 227)
+refined 1: F1@0.81 0.2861 cfg (0.3, 1, 0.725, 113, 284)
+holdout detection F1@0.81 0.2861 refined 1 suppress 0.3 force 1 thr 0.725 tp 113 pred 284 targets 506
+wrote 411 rows, mean boxes 1.46
+EXIT 0

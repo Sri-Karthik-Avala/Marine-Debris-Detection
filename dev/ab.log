@@ -1,0 +1,13 @@
+saved
+AUC sc 0.755 p81 0.784 p50 0.784 sc*p81 0.801 sc*p50 0.801
+rule (1, 0, 0) in-sample F1 0.3023
+rule (0, 1, 0) in-sample F1 0.2889
+rule (1, 1, 0) in-sample F1 0.3158
+rule (0.5, 1, 0) in-sample F1 0.3128
+rule (1, 0.5, 0) in-sample F1 0.3182
+rule (1, 0, 1) in-sample F1 0.3158
+rule (1, 0.5, 0.5) in-sample F1 0.3158
+rule (0, 0.5, 0.5) in-sample F1 0.2889
+honest {'(1, 0, 0)': 0.2999, '(1, 1, 0)': 0.3127, '(0.5, 1, 0)': 0.3084, '(1, 0.5, 0.5)': 0.3127}
+fold 0 316
+fold 1 631

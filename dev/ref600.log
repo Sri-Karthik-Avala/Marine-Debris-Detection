@@ -1,0 +1,14 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+0 1.1767 0.6967 1s
+200 0.2330 0.5192 49s
+400 0.2202 0.5047 98s
+train time 146.94230341911316
+synthetic IoU>=0.81 before 0.345 after 0.573 ; mean IoU 0.776 -> 0.811
+nv1 raw: F1@0.81 0.1558 sup 0.3 thr 0.825 P 213 tp 56 group 0.3393
+nv1 ref: F1@0.81 0.2704 sup 0.3 thr 0.725 P 278 tp 106 group 0.4431
+nv1 ref_q: F1@0.81 0.2144 sup 0.3 thr 0.850 P 567 tp 115 group 0.3338
+nv1 ref_sq: F1@0.81 0.2726 sup 0.3 thr 0.800 P 257 tp 104 group 0.4250
+nv4 raw: F1@0.81 0.2208 sup 0.3 thr 0.675 P 264 tp 85 group 0.4378
+nv4 ref: F1@0.81 0.2832 sup 0.3 thr 0.625 P 292 tp 113 group 0.5179
+nv4 ref_q: F1@0.81 0.2230 sup 0.3 thr 0.850 P 606 tp 124 group 0.3636
+nv4 ref_sq: F1@0.81 0.2854 sup 0.3 thr 0.725 P 286 tp 113 group 0.5187

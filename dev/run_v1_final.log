@@ -1,0 +1,39 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train rows 856 holdout rows 154 holdout groups 34
+images loaded 9s
+ep 0 step 25/642 loss 0.5113 lr 0.00249 82s
+ep 0 step 50/642 loss 0.5140 lr 0.00493 163s
+ep 0 step 75/642 loss 0.4637 lr 0.00726 236s
+ep 0 step 100/642 loss 0.4469 lr 0.00942 309s
+ep 0 step 125/642 loss 0.4513 lr 0.00911 385s
+ep 0 step 150/642 loss 0.4580 lr 0.00873 454s
+ep 0 step 175/642 loss 0.4495 lr 0.00829 546s
+ep 0 step 200/642 loss 0.4482 lr 0.00781 631s
+epoch 0 done loss 0.4502 679s
+ep 1 step 225/642 loss 0.4918 lr 0.00729 720s
+ep 1 step 250/642 loss 0.5133 lr 0.00673 795s
+ep 1 step 275/642 loss 0.5034 lr 0.00614 876s
+ep 1 step 300/642 loss 0.5072 lr 0.00554 962s
+ep 1 step 325/642 loss 0.5041 lr 0.00493 1058s
+ep 1 step 350/642 loss 0.5017 lr 0.00432 1146s
+ep 1 step 375/642 loss 0.4972 lr 0.00372 1229s
+ep 1 step 400/642 loss 0.4948 lr 0.00314 1318s
+ep 1 step 425/642 loss 0.4949 lr 0.00259 1401s
+epoch 1 done loss 0.4927 1411s
+ep 2 step 450/642 loss 0.4685 lr 0.00207 1481s
+ep 2 step 475/642 loss 0.4995 lr 0.00160 1564s
+ep 2 step 500/642 loss 0.5080 lr 0.00118 1641s
+ep 2 step 525/642 loss 0.4976 lr 0.00081 1712s
+ep 2 step 550/642 loss 0.5008 lr 0.00051 1788s
+ep 2 step 575/642 loss 0.4936 lr 0.00027 1868s
+ep 2 step 600/642 loss 0.4959 lr 0.00011 1949s
+ep 2 step 625/642 loss 0.4903 lr 0.00002 2025s
+epoch 2 done loss 0.4920 2078s
+training done 2088s
+holdout inference done 2271s
+variants 1 best so far f1 0.1622 cfg (1, 0.3, 1, 0.825, 58, 209)
+variants 2 best so far f1 0.1989 cfg (2, 0.3, 0, 0.7, 74, 238)
+variants 4 best so far f1 0.2087 cfg (4, 0.3, 1, 0.725, 79, 251)
+holdout detection F1@0.81 0.2087 variants 4 suppress 0.3 force 1 thr 0.725 tp 79 pred 251 targets 506
+wrote 411 rows, mean boxes 1.32, 2755s
+EXIT 0

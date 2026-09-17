@@ -1,0 +1,15 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+epoch 0 done loss 0.4686
+epoch 1 done loss 0.4930
+epoch 2 done loss 0.4962
+fold 0 done
+epoch 0 done loss 0.4631
+epoch 1 done loss 0.4890
+epoch 2 done loss 0.4922
+fold 1 done
+epoch 0 done loss 0.4776
+epoch 1 done loss 0.5117
+epoch 2 done loss 0.5156
+fold 2 done
+saved base
+EXIT
